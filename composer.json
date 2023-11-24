@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
   "name": "discommand2/brain-oliver",
   "description": "The Oliver brain template, designed as a Linux System Administrator with supporting plugins.",
+=======
+  "name": "discommand2/brain-template",
+  "description": "The base template for brains, from which all specific brain templates will inherit.",
+>>>>>>> upstream/main
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -13,15 +18,28 @@
     "discord": "https://discord.gg/yMs5vgvyV4"
   },
   "require": {
+<<<<<<< HEAD
     "php": ">=8.2"
   },
   "require-dev": {},
   "autoload": {
     "psr-4": {
       "Discommand2\\Brain\\Oliver\\": "src/"
+=======
+    "php": ">=8.2",
+    "discommand2/core": "dev-main"
+  },
+  "autoload": {
+    "psr-4": {
+      "Discommand2\\Brain\\Template\\": "src/"
+>>>>>>> upstream/main
     }
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
   "version": "2.0.0"
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> upstream/main
